@@ -1,0 +1,22 @@
+/* ** Book Store 
+ Institutional Specification ** */
+
+institution_id : bhInst.
+
+status_functions:
+
+events: payBook.
+
+constitutive_rules:
+
+1: transfer count-as payBook.
+
+
+
+ /* , rent, donation, replace. */
+ 
+ 
+ /*2: transfer count-as rent.
+3: transfer count-as donation.
+4: transfer count-as replace.
+*/
